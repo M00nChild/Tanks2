@@ -140,5 +140,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="734035555774306">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="966762657840686" type="Sprite">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="4" name="Set max speed" sid="140039099355664" type="Sprite">
+                    <param id="0" name="Max Speed">100</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
