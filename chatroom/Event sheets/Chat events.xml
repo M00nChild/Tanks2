@@ -412,9 +412,6 @@
                             <param id="0" name="Property name">&quot;background-color&quot;</param>
                             <param id="1" name="Value">&quot;grey&quot;</param>
                         </action>
-                        <action id="0" name="Import CSS file" sid="519099206401467" type="CSSImport">
-                            <param id="0" name="CSS import">&quot;stylebutton.css&quot;</param>
-                        </action>
                     </actions>
                 </event-block>
             </sub-events>

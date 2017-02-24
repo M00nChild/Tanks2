@@ -204,12 +204,6 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances>
-        <instance type="CSSImport" uid="12">
-            <properties>
-                <css-filename></css-filename>
-            </properties>
-        </instance>
-    </nonworld-instances>
+    <nonworld-instances />
     <effects />
 </c2layout>
