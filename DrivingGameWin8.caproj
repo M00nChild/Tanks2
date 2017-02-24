@@ -11,6 +11,7 @@
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -41,7 +42,7 @@
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Hide address bar">No</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
-        <prop name="Preview browser">Internet Explorer</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">iPhone only</prop>
     </configuration-settings>
@@ -198,13 +199,331 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Background" sid="856512747359691">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Filip\Desktop\Tanks2\Images\bg.jpg" />
+        </object-type>
+        <object-type name="NewGame" sid="475885109939327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="983178104561911" speed="5">
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\New game.png">
+                        <collision-poly>
+                            <point x="0.144385" y="0.341772" />
+                            <point x="0.855615" y="0.341772" />
+                            <point x="0.812834" y="0.49789" />
+                            <point x="0.834225" y="0.607595" />
+                            <point x="0.499109" y="0.607595" />
+                            <point x="0.187166" y="0.556962" />
+                            <point x="0.122995" y="0.49789" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\New game2.png">
+                        <collision-poly>
+                            <point x="0.15508" y="0.367089" />
+                            <point x="0.499109" y="0.405063" />
+                            <point x="0.84492" y="0.367089" />
+                            <point x="0.887701" y="0.49789" />
+                            <point x="0.84492" y="0.632911" />
+                            <point x="0.499109" y="0.594937" />
+                            <point x="0.197861" y="0.531646" />
+                            <point x="0.13369" y="0.49789" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Leaderboard" sid="547756272210885">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602593252435629" speed="5">
+                    <frame duration="1" hotspotX="0.500775" hotspotY="0.502008" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Leaderboard.png">
+                        <collision-poly>
+                            <point x="0.153488" y="0.39759" />
+                            <point x="0.846512" y="0.39759" />
+                            <point x="0.956589" y="0.497992" />
+                            <point x="0.865116" y="0.650602" />
+                            <point x="0.499225" y="0.542169" />
+                            <point x="0.145736" y="0.62249" />
+                            <point x="0.0620155" y="0.497992" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500775" hotspotY="0.502008" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Leaderboard2.png">
+                        <collision-poly>
+                            <point x="0.153488" y="0.39759" />
+                            <point x="0.846512" y="0.39759" />
+                            <point x="0.956589" y="0.497992" />
+                            <point x="0.865116" y="0.650602" />
+                            <point x="0.499225" y="0.542169" />
+                            <point x="0.145736" y="0.62249" />
+                            <point x="0.0620155" y="0.497992" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Multi" sid="849036264693969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635548203665571" speed="5">
+                    <frame duration="1" hotspotX="0.500639" hotspotY="0.501355" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Multi.png">
+                        <collision-poly>
+                            <point x="0.168582" y="0.357724" />
+                            <point x="0.831418" y="0.357724" />
+                            <point x="0.858238" y="0.498645" />
+                            <point x="0.777778" y="0.528455" />
+                            <point x="0.499361" y="0.455285" />
+                            <point x="0.233716" y="0.504065" />
+                            <point x="0.1341" y="0.498645" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500639" hotspotY="0.501355" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Multi2.png">
+                        <collision-poly>
+                            <point x="0.168582" y="0.357724" />
+                            <point x="0.831418" y="0.357724" />
+                            <point x="0.858238" y="0.498645" />
+                            <point x="0.777778" y="0.528455" />
+                            <point x="0.499361" y="0.455285" />
+                            <point x="0.233716" y="0.504065" />
+                            <point x="0.1341" y="0.498645" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Exit" sid="980047686832297">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753640218116145" speed="5">
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Wyjście.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00356506" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Wyjście2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Credits" sid="769138813068407">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732010870189981" speed="5">
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Twórcy.png">
+                        <collision-poly>
+                            <point x="0.187166" y="0.443038" />
+                            <point x="0.499109" y="0.341772" />
+                            <point x="0.796791" y="0.481013" />
+                            <point x="0.812834" y="0.49789" />
+                            <point x="0.812834" y="0.556962" />
+                            <point x="0.499109" y="0.607595" />
+                            <point x="0.187166" y="0.556962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500891" hotspotY="0.50211" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Twórcy2.png">
+                        <collision-poly>
+                            <point x="0.197861" y="0.468354" />
+                            <point x="0.499109" y="0.367089" />
+                            <point x="0.796791" y="0.481013" />
+                            <point x="0.807487" y="0.49789" />
+                            <point x="0.823529" y="0.582278" />
+                            <point x="0.499109" y="0.632911" />
+                            <point x="0.197861" y="0.531646" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Single" sid="605842074021144">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291575255524330" speed="5">
+                    <frame duration="1" hotspotX="0.500639" hotspotY="0.501355" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Single.png">
+                        <collision-poly>
+                            <point x="0.191571" y="0.406504" />
+                            <point x="0.499361" y="0.357724" />
+                            <point x="0.831418" y="0.357724" />
+                            <point x="0.881226" y="0.498645" />
+                            <point x="0.777778" y="0.528455" />
+                            <point x="0.226054" y="0.520325" />
+                            <point x="0.157088" y="0.498645" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500639" hotspotY="0.501355" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\Single2.png">
+                        <collision-poly>
+                            <point x="0.191571" y="0.406504" />
+                            <point x="0.499361" y="0.357724" />
+                            <point x="0.831418" y="0.357724" />
+                            <point x="0.881226" y="0.498645" />
+                            <point x="0.777778" y="0.528455" />
+                            <point x="0.226054" y="0.520325" />
+                            <point x="0.157088" y="0.498645" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Speaker" sid="175321102941837">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311936930942407" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\GłOn.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Filip\Desktop\Tanks2\Przyciski\GłOff.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="305044937253107">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Logo" sid="925482333462559">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="625449988363421" speed="5">
+                    <frame duration="1" hotspotX="0.500703" hotspotY="0.501961" original-source="C:\Users\jacek_000\Desktop\Logo\Logo.png">
+                        <collision-poly>
+                            <point x="0.149086" y="0.415686" />
+                            <point x="0.936709" y="0.498039" />
+                            <point x="0.850914" y="0.584314" />
+                            <point x="0.499297" y="0.552941" />
+                            <point x="0.144866" y="0.596078" />
+                            <point x="0.0295359" y="0.498039" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tank" sid="910655829791068">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182315534870466" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jacek_000\Desktop\Logo\tank.png">
+                        <collision-poly>
+                            <point x="0.291016" y="0.291016" />
+                            <point x="0.5" y="0.220703" />
+                            <point x="0.712891" y="0.287109" />
+                            <point x="0.966797" y="0.5" />
+                            <point x="0.791016" y="0.791016" />
+                            <point x="0.5" y="0.791016" />
+                            <point x="0.228516" y="0.771484" />
+                            <point x="0.0175781" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tank2" sid="239666902122980">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522049050992808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jacek_000\Desktop\Logo\tank.png">
+                        <collision-poly>
+                            <point x="0.291016" y="0.291016" />
+                            <point x="0.5" y="0.220703" />
+                            <point x="0.712891" y="0.287109" />
+                            <point x="0.966797" y="0.5" />
+                            <point x="0.791016" y="0.791016" />
+                            <point x="0.5" y="0.791016" />
+                            <point x="0.228516" y="0.771484" />
+                            <point x="0.0175781" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back" sid="196734413627872">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569852440780190" speed="5">
+                    <frame duration="1" hotspotX="0.500238" hotspotY="0.5" original-source="C:\Users\jacek_000\Desktop\Przyciski\back.png">
+                        <collision-poly>
+                            <point x="0.158821" y="0.4175" />
+                            <point x="0.499762" y="0.25375" />
+                            <point x="0.842606" y="0.41375" />
+                            <point x="0.842606" y="0.5" />
+                            <point x="0.824536" y="0.53875" />
+                            <point x="0.499762" y="0.30125" />
+                            <point x="0.189253" y="0.5025" />
+                            <point x="0.188778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fil" sid="538867785759402">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644476386064074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173" original-source="F:\TWORCY\fil.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jac" sid="251215110984493">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375457481148010" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173" original-source="F:\TWORCY\jac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kac" sid="500278798841187">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549935420559518" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173" original-source="F:\TWORCY\kac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pac" sid="944166876222430">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="355961217199980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\TWORCY\pac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sud" sid="836471480833447">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382625846296042" speed="5">
+                    <frame duration="1" hotspotX="0.500914" hotspotY="0.5" original-source="F:\TWORCY\sud.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Map1.xml</layout>
+        <layout>Menu.xml</layout>
+        <layout>Credits.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Map1 -eventsheet.xml</event-sheet>
+        <event-sheet>Menu - eventsheet.xml</event-sheet>
+        <event-sheet>Credits - - eventsheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Windows8" uid="186">
@@ -221,6 +540,7 @@
             </properties>
         </global-instance>
         <global-instance type="Keyboard" uid="18" />
+        <global-instance type="Mouse" uid="190" />
     </global-instances>
     <sounds-folder />
     <music-folder />

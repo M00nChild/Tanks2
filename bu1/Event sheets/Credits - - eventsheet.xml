@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Credits - - eventsheet</name>
+    <events>
+        <event-block sid="572603265022217">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="371219447244534" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="697630632724804" type="back">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="166550415312787">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="284822013772967" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="491752869523091" type="back">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="954715749965965">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="243302445571969" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="444837769905877" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu - eventsheet</name>
+    <events>
+        <event-block sid="657647700202765">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="970946541701483" type="Mouse">
+                    <param id="0" name="Object">NewGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="195019118219755" type="NewGame">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="811769848714740">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="646550917421063" type="Mouse">
+                    <param id="0" name="Object">NewGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="554985219178058" type="NewGame">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="528394117361291">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="552700189192403" type="Mouse">
+                    <param id="0" name="Object">Credits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="704697573883972" type="Credits">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="845316877528120">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="759552942134906" type="Mouse">
+                    <param id="0" name="Object">Credits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="835177841430578" type="Credits">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="414608394924560">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="717799266859959" type="Mouse">
+                    <param id="0" name="Object">Leaderboard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="875260864651403" type="Leaderboard">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="124739891908704">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="405842227160201" type="Mouse">
+                    <param id="0" name="Object">Leaderboard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="209732369448001" type="Leaderboard">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="794453499017857">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="669213828256509" type="Mouse">
+                    <param id="0" name="Object">Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="691524966625661" type="Exit">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581555987819557">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="417419785663412" type="Mouse">
+                    <param id="0" name="Object">Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="239433559504759" type="Exit">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="175544735159809">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="347961481029561" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">NewGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="437068215434182" type="Single">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="236618878634614" type="Multi">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="577718853736214">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="729186215204816" type="Mouse">
+                    <param id="0" name="Object">Single</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="659825638827556" type="Single">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="576046119762515">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="716362417669870" type="Mouse">
+                    <param id="0" name="Object">Single</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="508623605709380" type="Single">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="248578678817228">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="105607401829282" type="Mouse">
+                    <param id="0" name="Object">Multi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="682507547264462" type="Multi">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="615790109460939">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="933638131061717" type="Mouse">
+                    <param id="0" name="Object">Multi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="957788463388690" type="Multi">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="114944490127316">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="342038326978994" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Credits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="563984400544989" type="System">
+                    <param id="0" name="Layout">Credits</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

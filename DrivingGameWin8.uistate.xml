@@ -10,8 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Map1</layout>
-        <event-sheet order="1">Map1 -eventsheet</event-sheet>
+        <layout order="0">Map1</layout>
+        <layout order="1">Menu</layout>
+        <layout order="3">Credits</layout>
+        <event-sheet active="1" order="2">Menu - eventsheet</event-sheet>
+        <event-sheet order="4">Credits - - eventsheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -37,5 +40,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/NewGame/" />
+        <folder expanded="1" path="animation-folder/Leaderboard/" />
+        <folder expanded="1" path="animation-folder/Multi/" />
+        <folder expanded="1" path="animation-folder/Exit/" />
+        <folder expanded="1" path="animation-folder/Credits/" />
+        <folder expanded="1" path="animation-folder/Single/" />
+        <folder expanded="1" path="animation-folder/Speaker/" />
+        <folder expanded="1" path="animation-folder/Logo/" />
+        <folder expanded="1" path="animation-folder/tank/" />
+        <folder expanded="1" path="animation-folder/tank2/" />
+        <folder expanded="1" path="animation-folder/back/" />
+        <folder expanded="1" path="animation-folder/fil/" />
+        <folder expanded="1" path="animation-folder/jac/" />
+        <folder expanded="1" path="animation-folder/kac/" />
+        <folder expanded="1" path="animation-folder/pac/" />
+        <folder expanded="1" path="animation-folder/sud/" />
     </folders-expanded>
 </c2uistate>
