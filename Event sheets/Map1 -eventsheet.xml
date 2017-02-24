@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Map1 -eventsheet</name>
     <events>
+        <variable constant="0" name="waypoint" sid="311550070758792" static="0" type="number">1</variable>
         <variable constant="0" name="IntendedScale" sid="13" static="0" type="number">1</variable>
         <comment>By having an intended scale and gradually moving the actual layer scale towards that value, we can create a smooth zoom based on the car&apos;s speed.</comment>
         <event-block sid="14">
@@ -148,9 +149,24 @@
             </conditions>
             <actions>
                 <action behavior="Car" id="4" name="Set max speed" sid="140039099355664" type="Sprite">
-                    <param id="0" name="Max Speed">100</param>
+                    <param id="0" name="Max Speed">200</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="857848219320663">
+            <conditions>
+                <condition id="-11" name="For Each" sid="229700532932662" type="System">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="980314346940792" type="Sprite5">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="486512344563917">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

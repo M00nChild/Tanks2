@@ -18,7 +18,9 @@
         <plugin author="Scirra.com" id="win8" version="1">Windows Store</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -56,7 +58,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3" speed="5">
-                    <frame duration="1" hotspotX="0.516129" hotspotY="0.482759" original-source="C:\Users\Prett\Desktop\Czołg biały.png" />
+                    <frame duration="1" hotspotX="0.64" hotspotY="0.56" original-source="C:\Users\Prett\Desktop\Czołg biały.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -80,7 +82,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="614245401360815" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\mapa v2.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\mapa v3.jpg">
                         <collision-poly>
                             <point x="0.223429" y="0.223429" />
                             <point x="0.776571" y="0.223429" />
@@ -106,6 +108,92 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="704047338895621" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="279513709478726">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="564626844511407">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404852299580725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\SHIT\flatDark\flatDark10.png">
+                        <collision-poly>
+                            <point x="0.148148" y="0.148148" />
+                            <point x="0.5" y="0.00617284" />
+                            <point x="0.845679" y="0.154321" />
+                            <point x="0.993827" y="0.5" />
+                            <point x="0.851852" y="0.851852" />
+                            <point x="0.5" y="0.993827" />
+                            <point x="0.148148" y="0.851852" />
+                            <point x="0.00617284" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="571329109803706">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="257074911889304">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="505694680484712">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="412582362693833">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554095488554469" speed="5">
+                    <frame duration="1" hotspotX="0.37037" hotspotY="0.76" original-source="D:\czołg zielony.png">
+                        <collision-poly>
+                            <point x="0.666667" y="0.36" />
+                            <point x="0.814815" y="0.76" />
+                            <point x="0.666667" y="1" />
+                            <point x="0.407407" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.76" />
+                            <point x="0.0740741" y="0.32" />
+                            <point x="0.407407" y="0.32" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="187302617496072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803013056066293" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="108957595456224">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642562371992033" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="699907821472934">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="305153010409080" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="592232555365441">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697428804532000" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
